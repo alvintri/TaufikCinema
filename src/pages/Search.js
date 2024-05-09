@@ -62,7 +62,7 @@ const SearchBox = () => {
             <Container fluid style={{ marginTop: '80px' }}>
                 <Form className="col-lg-5 col-sm-8">
                     <Form.Group className="position-relative">
-                        <Search size={20} className="position-absolute fw-bold" style={{ top: 8, left: 10 }}/>
+                        <Search id="searchButton" size={20} className="position-absolute fw-bold" style={{ top: 8, left: 10 }}/>
                         <Form.Control 
                             onChange={event => setQuery(event.target.value) }
                             type="search" 
